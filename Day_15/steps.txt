@@ -1,0 +1,25 @@
+
+To Do:-
+Print report.
+Check resources sufficient?
+Process coins
+Check transaction successful?
+Make Coffee.
+
+Algorithm:-
+
+input from customer
+
+if coffee
+    if check ingredients >= satisfied ingredients
+    accept coins
+    if process coins < required coins
+        stop message
+    if process coins >= required coins
+        make coffee
+        if process coins >= required coins
+            return the balance amt and make the coffee
+if report:
+    print report.
+if stop:
+    stop the machine.
