@@ -1,0 +1,2 @@
+- High order function(Taking another function as a input and working with it inside the body of function)
+- Keyword arguments and positional arguments
