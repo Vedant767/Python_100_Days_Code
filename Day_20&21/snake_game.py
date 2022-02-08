@@ -34,12 +34,12 @@ while game_on:
         score_board.cal_score()
     
     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
-        game_on = False
-        score_board.game_over()
+        score_board.reset()
+        snake.reset()
     
     for part in snake.parts[1:]:
         if snake.head.distance(part) < 10:
-            game_on = False
-            score_board.game_over()
+            score_board.reset()
+            
 
 screen.exitonclick()
